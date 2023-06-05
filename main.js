@@ -20,7 +20,7 @@ async function cargarDB() {
     console.log(data);
 
     Object.values(data).forEach(val => {
-        console.log(val);
+        console.log(data[nombres]);
         // resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
     });
 }
