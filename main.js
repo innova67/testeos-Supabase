@@ -18,7 +18,11 @@ async function cargarDB() {
     
     //revisar que todo esté bien
     console.log(data);
-    console.log(error);
+
+    Object.values(data).forEach(val => {
+        console.log(val);
+        // resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
+    });
 }
 
 cargarDB();
