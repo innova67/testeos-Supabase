@@ -1,10 +1,10 @@
 
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from '@supabase/supabase-js';
 
 // Create a single supabase client for interacting with your database
-const supabaseUrl = 'https://dngdzrclokvsobpfrxsa.supabase.co'
-const supabaseKey = process.env.SUPABASE_KEY
-const supabase = createClient(supabaseUrl, supabaseKey)
+const supabaseUrl = 'https://dngdzrclokvsobpfrxsa.supabase.co';
+const supabaseKey = process.env.SUPABASE_KEY;
+const supabase = createClient(supabaseUrl, supabaseKey);
 
 // get html div id
 const visDatos = document.getElementById("clientes");
