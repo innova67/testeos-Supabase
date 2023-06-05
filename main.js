@@ -20,3 +20,5 @@ function cargarDB() {
     console.log(data);
     console.log(error);
 }
+
+cargarDB();
