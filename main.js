@@ -10,7 +10,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 const visDatos = document.getElementById("clientes");
 
 
-function cargarDB() {
+async function cargarDB() {
     // tener los datos a la mano
     const { data, error } = await supabase
         .from('clientes')
