@@ -21,7 +21,7 @@ async function cargarDB() {
 
     Object.values(data).forEach(val => {
         console.log(val.nombres);
-        resultContainer.innerHTML += `<p>${val.nombres}</p>`;
+        clientes.innerHTML += `<p>${val.nombres}</p>`;
     });
 }
 
