@@ -21,6 +21,7 @@ async function cargarDB() {
 
     Object.values(data).forEach(val => {
         console.log(val);
+        console.log(val.nombres);
         // resultContainer.innerHTML += `<div>[${countResults}] - ${decodedText}</div>`;
     });
 }
